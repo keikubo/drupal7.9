@@ -13,6 +13,7 @@ public_html/sites/default/default.settings.php FLX_DB_HOST DB_HOST
 
 [setup]
 # I changed public_html/sites/default/default.settings.php to ./settings.php.
+mkdir $HOME/pear
 pear config-create $HOME/pear .pearrc
 pear install -o PEAR
 pear channel-discover pear.drush.org
