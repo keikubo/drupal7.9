@@ -177,7 +177,22 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+    'default' =>
+    array (
+        'default' =>
+        array (
+            'database' => 'FLX_DB_NAME',
+            'username' => 'FLX_DB_USER',
+            'password' => 'FLX_DB_PASS',
+            'host' => 'FLX_DB_HOST',
+            'port' => '',
+            'driver' => 'mysql',
+            'prefix' => '',
+        ),
+    ),
+);
+
 
 /**
  * Access control for update.php script.
